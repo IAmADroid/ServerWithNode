@@ -4,12 +4,16 @@
   "description": "I am following the tutorial from coding train",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
   },
   "keywords": [
     "test",
     "twitter"
   ],
   "author": "Martin De La Torre",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
 }
